@@ -1,0 +1,83 @@
+*{
+	/*outline: 1px solid red;*/
+}
+/*див с кнопками меню*/
+.menudiv{
+	display: flex;
+	flex-direction: column;
+	padding: 0% 0px 0px 0px;
+
+}
+/*общий див для постов страницы*/
+.posts{
+	display: flex;
+	flex-direction: column;
+}
+/*Див для отдельного поста*/
+.postsdiv{
+	margin: 0% 0% 1%;
+	padding: 2%;
+	border: 1px solid #C2C2C2;
+	border-radius: 10px;
+	background:#CAFAF6;
+	display: flex;
+}
+/*текст постов*/
+.textdiv{
+	text-align: justify;
+}
+h4{
+	text-align: center;
+}
+/* ul с кнопками меню*/
+.buttonmenu{
+	padding:0%;
+	/*width: 25%;*/
+	position: fixed;
+	z-index: 1000;
+}
+/*кнопки меню*/
+.listmenu{
+	margin-bottom: 3px;
+	padding: 2% 0% 2% 10%;
+	border: 1px solid lightgray;
+	border-radius: 10px;
+	background: white;
+}
+.listmenu:hover{
+	background:#f0f0f0;
+}
+.container-fluid{
+	padding-left: 0px;
+}
+/* класс для закругления*/
+ .round {
+    border-radius: 100px; /* Радиус скругления */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+   }
+/*класс картинок в ссылках*/
+.ref{
+	padding: 10px 20px;
+}
+.col-md-3{
+	width: 25%;
+}
+.col-md-9{
+	width: 75%;
+}
+#toTop {
+width:100px;
+border:1px solid #ccc;
+border-radius: 10px;
+background:#f7f7f7;
+text-align:center;
+padding:5px;
+position:fixed;
+bottom:10px; /* отступ кнопки от нижнего края страницы*/
+right:10px;
+cursor:pointer;
+display:none;
+color:#333;
+font-family:verdana;
+font-size:15px;
+}
